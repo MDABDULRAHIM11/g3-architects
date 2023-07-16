@@ -151,6 +151,18 @@ main {
     nav li {
         margin: 0px;
     }
+    
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content{
+        margin-top: 24px;
+    }
 }
 
 /* for tablet devices */
