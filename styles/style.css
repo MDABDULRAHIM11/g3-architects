@@ -142,7 +142,10 @@ main {
         flex-direction: column;
         padding-bottom: 75px;
     }
-
+    
+    .nav-title{
+        padding-bottom: 15px;
+    }
 
     nav ul {
         gap: 30px;
@@ -163,6 +166,10 @@ main {
     .teams-content{
         margin-top: 24px;
     }
+
+    .teams-img-container img {
+        width: 25rem;
+    }
 }
 
 /* for tablet devices */
@@ -181,5 +188,22 @@ main {
 
     nav li {
         margin: 0px;
+    }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-img-container img {
+        width: 40rem;
+        height: 20rem;
+    }
+
+    .teams-content{
+        margin-top: 24px;
     }
 }
